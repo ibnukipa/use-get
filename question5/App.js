@@ -23,7 +23,7 @@ function getUuid() {
     });
 }
 
-const DEFAULT_ITEMS = todoFaker(500);
+const DEFAULT_ITEMS = todoFaker(10);
 
 const Item = memo(({what, onRemove, onSelect, onUnSelect}) => {
     const inputRef = useRef()
